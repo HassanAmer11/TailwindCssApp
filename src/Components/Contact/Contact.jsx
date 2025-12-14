@@ -6,7 +6,7 @@ export default function Contact() {
       <section className="min-h-[inherit] flex justify-center items-center pt-6">
         <div className="container">
           <div className="text-center pt-4">
-            <h2 className="uppercase font-bold text-3xl">conatct section</h2>
+            <h2 className="uppercase font-bold text-2xl sm:text-3xl">conatct section</h2>
             <div
               className="inline-block px-3 relative after:absolute after:top-4/10 after:left-1/1 after:w-20 after:border-2 
           before:absolute before:top-4/10 before:right-1/1 before:w-20 before:border-2"

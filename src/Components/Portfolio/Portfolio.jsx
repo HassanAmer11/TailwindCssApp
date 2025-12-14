@@ -17,7 +17,7 @@ export default function Portfolio() {
   return (
     <>
       <section className="text-center pt-10">
-          <h2 className="uppercase font-bold text-3xl">portfolio component</h2>
+          <h2 className="uppercase font-bold text-2xl sm:text-3xl">portfolio component</h2>
           <div
             className="inline-block px-3 relative after:absolute after:top-4/10 after:left-1/1 after:w-20 after:border-2 
                     before:absolute before:top-4/10 before:right-1/1 before:w-20 before:border-2"

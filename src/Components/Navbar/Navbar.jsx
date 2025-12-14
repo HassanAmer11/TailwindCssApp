@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className=" bg-main text-white py-5 px-8 uppercase shadow-2xl fixed top-0 end-0 start-0 z-50">
+      <nav className=" bg-main text-white py-6 px-5 sm:px-0 uppercase shadow-2xl fixed top-0 end-0 start-0 z-50">
         <div className="container">
           <div className="flex justify-between flex-wrap md:flex-nowrap">
             <h2 className="font-bold text-2xl md:text-3xl">

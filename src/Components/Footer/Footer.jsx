@@ -8,14 +8,14 @@ export default function Footer() {
           <div className="flex flex-wrap">
             <div className="md:w-1/3 w-1/1">
               <div className="text-center p-5">
-                <h3 className="text-2xl font-medium uppercase">LOCATION</h3>
+                <h3 className="text-xl sm:text-2xl font-medium uppercase">LOCATION</h3>
                 <p>2215 John Daniel Drive </p>
                 <p>Clark, MO 65243</p>
               </div>
             </div>
             <div className="md:w-1/3 w-1/1">
               <div className="text-center p-5">
-                <h3 className="text-2xl font-medium uppercase">
+                <h3 className="text-xl sm:text-2xl font-medium uppercase">
                   AROUND THE WEB
                 </h3>
                 <div className="flex gap-3 justify-center items-center mt-4">
@@ -90,7 +90,7 @@ export default function Footer() {
             </div>
             <div className="md:w-1/3 w-1/1">
               <div className="text-center p-5">
-                <h3 className="text-2xl font-medium uppercase">
+                <h3 className="text-xl sm:text-2xl font-medium uppercase">
                   ABOUT FREELANCER
                 </h3>
                 <p>

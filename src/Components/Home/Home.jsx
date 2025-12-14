@@ -8,7 +8,7 @@ export default function Home() {
           <img src={avatar} alt="..." className="w-full" />
         </div>
         <div className="flex flex-col justify-center items-center mt-4 gap-2">
-          <h2 className="uppercase font-bold text-3xl">start Framework</h2>
+          <h2 className="uppercase font-bold text-2xl sm:text-3xl">start Framework</h2>
           <div
             className="inline-block px-3 relative after:absolute after:top-4/10 after:left-1/1 after:w-20 after:border-2 
           before:absolute before:top-4/10 before:right-1/1 before:w-20 before:border-2"
