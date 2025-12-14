@@ -27,17 +27,17 @@ export default function About() {
               </svg>
             </div>
           </div>
-          <div className="flex">
-            <div className="w-1/2">
-              <div className="p-3">
+          <div className="flex flex-wrap">
+            <div className="md:w-1/2 w-full">
+              <div className="p-4">
                 Freelancer is a free TailwindCss theme created by Route. The
                 download includes the complete source files including HTML, CSS,
                 and JavaScript as well as optional SASS stylesheets for easy
                 customization.
               </div>
             </div>
-            <div className="w-1/2">
-              <div className="p-3">
+            <div className="md:w-1/2 w-full">
+              <div className="p-4">
                 Freelancer is a free TailwindCss theme created by Route. The
                 download includes the complete source files including HTML, CSS,
                 and JavaScript as well as optional SASS stylesheets for easy
