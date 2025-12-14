@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className=" bg-main text-white py-5 px-8 uppercase shadow-2xl fixed top-0 end-0 start-0 z-50">
         <div className="container">
           <div className="flex justify-between flex-wrap md:flex-nowrap">
-            <h2 className="font-bold text-3xl">
+            <h2 className="font-bold text-2xl md:text-3xl">
               <Link to={"/"}>Start Framework</Link>
             </h2>
             <button
@@ -39,10 +39,10 @@ export default function Navbar() {
               <li className='w-full md:w-auto'>
                 <NavLink className="py-2 px-3 block md:inline-block" to={"/about"}>About</NavLink>
               </li>
-              <li>
+              <li className='w-full md:w-auto'>
                 <NavLink className="py-2 px-3 block md:inline-block" to={"/portfolio"}> Portfolio</NavLink>
               </li>
-              <li>
+              <li className='w-full md:w-auto'>
                 <NavLink  className="py-2 px-3 block md:inline-block" to={"/contact"}> Contact</NavLink>
               </li>
             </ul>

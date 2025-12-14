@@ -16,8 +16,7 @@ export default function Portfolio() {
   }
   return (
     <>
-      <section className="portfolio-section">
-        <div className="text-center pt-4">
+      <section className="text-center pt-10">
           <h2 className="uppercase font-bold text-3xl">portfolio component</h2>
           <div
             className="inline-block px-3 relative after:absolute after:top-4/10 after:left-1/1 after:w-20 after:border-2 
@@ -38,12 +37,11 @@ export default function Portfolio() {
               />
             </svg>
           </div>
-        </div>
+     
 
         <div className="py-4">
           <div className="container">
             <div className="flex flex-wrap">
-              
               <div className="md:w-1/3 sm:w-1/2 w-full">
                 <div
                   className="group p-6"
@@ -229,8 +227,6 @@ export default function Portfolio() {
                   </div>
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>
@@ -255,7 +251,6 @@ export default function Portfolio() {
               />
             </div>
           </div>
-          
         </div>
       </section>
     </>
